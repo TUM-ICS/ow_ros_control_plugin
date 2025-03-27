@@ -1,0 +1,13 @@
+<library path="lib/libow_ros_control_plugin"> 
+  
+  <class    name="ow_ros_control_plugin/OwRosControlPlugin"
+            type="ow_ros_control_plugin::OwRosControlPlugin" 
+            base_class_type="controller_interface::ControllerBase">
+
+    <description>
+        Open Walker controller plugin to interface with ros_control.
+    </description>
+  </class>
+
+</library>
+
